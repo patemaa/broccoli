@@ -1,0 +1,20 @@
+public class Main                      
+{
+	public static void main(String[] args) {
+    java.util.Scanner kb = new java.util.Scanner(System.in);
+
+                 //0  1  2  3  4   5  6   7   8  9
+        int a[] = {4, 8, 3, 1, 18, 9, 21, 20, 5, 17};
+        int i, size, k, n;
+        size = 10; 
+        
+        System.out.print("n'yi giriniz: ");
+        n = kb.nextInt();
+        
+        for (i = 1; i <= n; i = i + 1){
+           for (k = 1; k <= n; k = k + 1)
+                System.out.print("*");
+                System.out.println(); 
+        }
+	}
+}  
